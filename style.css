@@ -22,10 +22,11 @@ body, html {
 }
 .dine-in {
   text-transform: uppercase;
+  font-size: 50px;
 
 }
 .skipwait {
-
+  font-size: 30px;
 }
 .cameras ul {
   padding: 15px 20px;

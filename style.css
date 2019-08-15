@@ -36,11 +36,16 @@ body, html {
   padding: 10px 20px;
   border-bottom: 1px solid #ccc;
 }
+.scans1 li {
+  padding: 10px 20px;
+  border-bottom: 1px solid #ccc;
+}
+
 .scans-enter-active {
   transition: background 3s;
 }
 .scans-enter {
-  background: yellow;
+  background: purple;
 }
 .empty {
   font-style: italic;

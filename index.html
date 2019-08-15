@@ -40,10 +40,7 @@
             <li class="empty">No scans yet</li>
           </ul>
           <transition-group name="scans" tag="ul">
-           <li v-for="scan in scans" :key="scan.date" :title="scan.content">{{ scan.content }}<a href="{{ scan.content }}"</a></li>
-
-            <li class="invalid nav-item"><a href="index.html">valid</a></li>
-
+           <li v-for="scan in scans" :key="scan.date" :title="scan.content"><a href="{{ scan.content }}"</a></li>
           </transition-group>
         </section>
 

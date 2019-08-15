@@ -22,11 +22,13 @@
           <video id="preview"></video>
         </div>
       </center>
-      <button type="button" onclick="alert('Hello world!')">Click Me!</button>
+
+      <!-- <button type="button" onclick="alert('Hello world!')">Click Me!</button>
             <a href="https://qrco.de/bbDPOD">
                 <img src="button.png" alt="Italian Trulli" max-width: "100%" height: "auto">
             </a>
-      <section class="scans">
+       -->      
+      <!-- <section class="scans">
           <h2>Scans</h2>
           <ul v-if="scans.length === 0">
             <li class="empty">No scans yet</li>
@@ -35,8 +37,19 @@
           <transition-group name="scans" tag="ul">
             <li v-for="scan in scans" :key="scan.date" :title="scan.content">{{ scan.content }}</li> 
           </transition-group>
-        </section>
+        </section> -->
 
+      <button onclick="myFunction()">
+        <transition-group name="scans" tag="ul">
+            <li v-for="scan in scans" :key="scan.date" :title="scan.content">{{ scan.content }}"</li> 
+          </transition-group>
+      </button>
+
+      <script>
+      function myFunction() {
+        location.replace("https://www.w3schools.com" )
+      }
+      </script>
 
       <section class="scans">
           <h2>Scans</h2>

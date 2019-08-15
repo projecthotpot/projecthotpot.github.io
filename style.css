@@ -11,34 +11,6 @@ body, html {
   justify-content: stretch;
   height: 100%;
 }
-.sidebar {
-  background: #eceff1;
-  min-width: 250px;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  overflow: auto;
-}
-.sidebar h2 {
-  font-weight: normal;
-  font-size: 1.0rem;
-  background: #607d8b;
-  color: #fff;
-  padding: 10px;
-  margin: 0;
-}
-.sidebar ul {
-  margin: 0;
-  padding: 0;
-  list-style-type: none;
-}
-.sidebar li {
-  line-height: 175%;
-  white-space: nowrap;
-  overflow: hidden;
-  text-wrap: none;
-  text-overflow: ellipsis;
-}
 .cameras ul {
   padding: 15px 20px;
 }

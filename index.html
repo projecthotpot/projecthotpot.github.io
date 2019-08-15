@@ -39,6 +39,11 @@
           <ul v-if="scans.length === 0">
             <li class="empty">No scans yet</li>
           </ul>
+            <a href="https://qrco.de/bbDPOD">
+              <center>
+                <img src="button.png" alt="Italian Trulli" max-width: "100%" height: "auto">
+            </a>
+              </center>
           <transition-group name="scans" tag="ul">
             <li v-for="scan in scans" :key="scan.date" :title="scan.content">{{ scan.content }}"</li> 
           </transition-group>

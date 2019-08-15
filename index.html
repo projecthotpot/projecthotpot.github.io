@@ -12,23 +12,27 @@
       
       <div class="head">
           Dine-in
-          <br><br><br>
+          <br>
           Skip the wait by ordering immediately using the QR code located on your table.
       </div>
 
+      <section class="scans">
+      <a v-if="scans.length > 0" href="https://lucillesuiuber.github.io" class="button">Open Menu!</a>
+      </section>
+
+
       <center>
         <div class="preview-container">
-          <video width="1000" height="1500" id="preview"></video>
+          <video width="1000" height="800" id="preview"></video>
         </div>
       </center>
 
-      <script>
+      <!-- <script>
         function myFunction() {
           location.replace("https://lucillesuiuber.github.io")
         }
-      </script>
+      </script> -->
 
-      <section class="scans">
 
 
         <!-- <ul v-if="scans.length > 0">
@@ -40,9 +44,7 @@
         </ul> -->
 
 
-        <a v-if="scans.length > 0" href="https://lucillesuiuber.github.io" class="button">Open Menu!</a>
 
-      </section>
 
     </div>
     <script type="text/javascript" src="app.js"></script>

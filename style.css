@@ -14,16 +14,14 @@ body, html {
 .paragraph {
   margin: auto;
   text-align: center;
-  /*align-items: center;*/
-  /*color: white*/
+  align-items: center;
   justify-content: center;
   display: flex;
   padding: 50px;
 }
-.dine-in {
+.dinein {
   text-transform: uppercase;
   font-size: 50px;
-
 }
 .skipwait {
   font-size: 30px;
@@ -49,6 +47,7 @@ body, html {
   justify-content: center;
   text-align: center;
   margin: auto;
+  font-size: 50px;
 }
 
 .scans-enter-active {

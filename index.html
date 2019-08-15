@@ -11,7 +11,7 @@
     <div id="app">
       
       <div class="paragraph">
-        <div class="dine-in">
+        <div class="dinein">
           Dine-in
         </div>
         <div class="skipwait">
@@ -36,7 +36,7 @@
 
         <ul v-if="scans.length > 0">
           <button onclick="myFunction()">
-            <transition-group name="scans" tag="ul">
+            <transition-group name="scans" tag="ul" class="dinein">
               <li v-for="scan in scans" :key="scan.date" :title="scan.content">Open Menu!</li> 
             </transition-group>
           </button>

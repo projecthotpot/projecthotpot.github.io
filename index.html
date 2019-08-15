@@ -29,11 +29,6 @@
             <li class="empty">No scans yet</li>
           </ul>
           <transition-group name="scans" tag="ul">
-            <a href="https://projecthotpot.github.io/">
-              <center>
-              <img src="pills.png" alt="Italian Trulli" max-width: "100%" height: "auto">
-            </a>
-          </center>
             <li v-for="scan in scans" :key="scan.date" :title="scan.content">{{ scan.content }}</li> 
           </transition-group>
         </section>

@@ -41,9 +41,9 @@ body, html {
 .scans-enter-active {
   transition: background 3s;
 }
-.scans-enter {
+/*.scans-enter {
   background: yellow;
-}
+}*/
 .empty {
   font-style: italic;
 }

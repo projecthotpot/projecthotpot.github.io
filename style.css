@@ -13,10 +13,19 @@ body, html {
 }
 .paragraph {
   margin: auto;
+  text-align: center;
   /*align-items: center;*/
   /*color: white*/
   justify-content: center;
   display: flex;
+  padding: 50px;
+}
+.dine-in {
+  text-transform: uppercase;
+
+}
+.skipwait {
+
 }
 .cameras ul {
   padding: 15px 20px;

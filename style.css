@@ -6,9 +6,9 @@ body, html {
 }
 #app {
   background: #85e085;
-  display: flex;
+  /*display: flex;
   align-items: stretch;
-  justify-content: stretch;
+  justify-content: stretch;*/
   height: 100%;
 }
 #paragraph {
@@ -49,6 +49,7 @@ body, html {
   font-style: italic;
 }
 .preview-container {
+  margin: auto;
   flex-direction: column;
   align-items: center;
   justify-content: center;

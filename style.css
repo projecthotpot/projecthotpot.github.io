@@ -48,6 +48,7 @@ body, html {
   border-bottom: 1px solid #ccc;
   justify-content: center;
   text-align: center;
+  margin: auto;
 }
 
 .scans-enter-active {

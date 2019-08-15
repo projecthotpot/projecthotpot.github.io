@@ -17,7 +17,7 @@
       </div>
 
       <section class="scans">
-      <a v-if="scans.length > 0" href="https://lucillesuiuber.github.io" class="button">Open Menu!</a>
+        <a v-if="scans.length > 0" href="https://lucillesuiuber.github.io" class="button">Open Menu!</a>
       </section>
 
 
@@ -32,20 +32,13 @@
           location.replace("https://lucillesuiuber.github.io")
         }
       </script> -->
-
-
-
-        <!-- <ul v-if="scans.length > 0">
-          <button onclick="myFunction()">
-            <transition-group name="scans" tag="ul" class="dinein">
-              <li v-for="scan in scans" :key="scan.date" :title="scan.content">Open Menu!</li> 
-            </transition-group>
-          </button>
-        </ul> -->
-
-
-
-
+      <!-- <ul v-if="scans.length > 0">
+        <button onclick="myFunction()">
+          <transition-group name="scans" tag="ul" class="dinein">
+            <li v-for="scan in scans" :key="scan.date" :title="scan.content">Open Menu!</li> 
+          </transition-group>
+        </button>
+      </ul> -->
     </div>
     <script type="text/javascript" src="app.js"></script>
   </body>

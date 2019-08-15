@@ -17,6 +17,7 @@
             Skip the wait by ordering immediately using the QR code located on your table.
         </div>
       </div>
+
       <center>
         <div class="preview-container">
           <video id="preview"></video>
@@ -38,28 +39,26 @@
             <li v-for="scan in scans" :key="scan.date" :title="scan.content">{{ scan.content }}</li> 
           </transition-group>
         </section> -->
-
-      <button onclick="myFunction()">
-        <transition-group name="scans" tag="ul">
-            <li v-for="scan in scans" :key="scan.date" :title="scan.content">{{ scan.content }}"</li> 
-          </transition-group>
-      </button>
-
       <script>
-      function myFunction() {
-        location.replace("https://www.w3schools.com" )
-      }
+        function myFunction() {
+          location.replace("https://www.w3schools.com")
+        }
       </script>
 
       <section class="scans">
-          <h2>Scans</h2>
-          <ul v-if="scans.length === 0">
-            <li class="empty">No scans yet</li>
-          </ul>
+        <h2>Scans</h2>
+
+        <ul v-if="scans.length === 0">
+          <li class="empty">No scans yet</li>
+        </ul>
+
+        <button onclick="myFunction()">
           <transition-group name="scans" tag="ul">
             <li v-for="scan in scans" :key="scan.date" :title="scan.content">{{ scan.content }}"</li> 
           </transition-group>
-        </section>
+        </button>
+        
+      </section>
 
     </div>
     <script type="text/javascript" src="app.js"></script>
